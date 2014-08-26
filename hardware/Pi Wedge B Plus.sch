@@ -18164,6 +18164,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH"/>
 </parts>
 <sheets>
 <sheet>
@@ -18201,6 +18202,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND9" gate="1" x="68.58" y="76.2"/>
 <instance part="SUPPLY13" gate="G$1" x="71.12" y="139.7"/>
 <instance part="SUPPLY14" gate="G$1" x="60.96" y="139.7"/>
+<instance part="LOGO2" gate="G$1" x="55.88" y="5.08"/>
 </instances>
 <busses>
 </busses>
@@ -18506,7 +18508,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="185.42" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="SCLK" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="SCLK"/>
 <wire x1="121.92" y1="121.92" x2="104.14" y2="121.92" width="0.1524" layer="91"/>
@@ -18515,7 +18517,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="121.92" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="MISO" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="MISO"/>
 <wire x1="104.14" y1="119.38" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
@@ -18524,7 +18526,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="124.46" y1="124.46" x2="124.46" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="MOSI" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="MOSI"/>
 <wire x1="127" y1="116.84" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
@@ -18533,7 +18535,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="127" y1="121.92" x2="127" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="CE0" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="CE0"/>
 <wire x1="104.14" y1="114.3" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
@@ -18542,7 +18544,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="129.54" y1="119.38" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="CE1" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="CE1"/>
 <wire x1="104.14" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
