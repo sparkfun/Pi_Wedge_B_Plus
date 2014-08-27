@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.02" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -139,7 +139,7 @@
 </layers>
 <board>
 <plain>
-<wire x1="73.66" y1="62.484" x2="73.66" y2="45.974" width="0.2032" layer="20"/>
+<wire x1="73.66" y1="62.23" x2="73.66" y2="45.974" width="0.2032" layer="20"/>
 <wire x1="73.66" y1="45.974" x2="72.39" y2="44.704" width="0.2032" layer="20" curve="-90"/>
 <wire x1="72.39" y1="44.704" x2="46.736" y2="44.704" width="0.2032" layer="20"/>
 <wire x1="46.736" y1="44.704" x2="45.466" y2="43.434" width="0.2032" layer="20" curve="90"/>
@@ -150,10 +150,10 @@
 <wire x1="28.956" y1="0" x2="44.196" y2="0" width="0.2032" layer="20"/>
 <wire x1="44.196" y1="0" x2="45.466" y2="1.27" width="0.2032" layer="20" curve="90"/>
 <wire x1="45.466" y1="1.27" x2="45.466" y2="43.434" width="0.2032" layer="20"/>
-<wire x1="73.66" y1="62.484" x2="72.39" y2="63.754" width="0.2032" layer="20" curve="90"/>
-<wire x1="72.39" y1="63.754" x2="1.27" y2="63.754" width="0.2032" layer="20"/>
-<wire x1="1.27" y1="63.754" x2="0" y2="62.611" width="0.2032" layer="20" curve="90"/>
-<wire x1="0" y1="62.611" x2="0" y2="46.101" width="0.2032" layer="20"/>
+<wire x1="73.66" y1="62.23" x2="72.39" y2="63.5" width="0.2032" layer="20" curve="90"/>
+<wire x1="72.39" y1="63.5" x2="1.27" y2="63.5" width="0.2032" layer="20"/>
+<wire x1="1.27" y1="63.5" x2="0" y2="62.357" width="0.2032" layer="20" curve="90"/>
+<wire x1="0" y1="62.357" x2="0" y2="46.101" width="0.2032" layer="20"/>
 <wire x1="0" y1="46.101" x2="1.27" y2="44.704" width="0.2032" layer="20" curve="90"/>
 <text x="8.001" y="58.166" size="1.016" layer="16" font="vector" ratio="20" rot="SMR180">V01</text>
 <text x="31.75" y="1.524" size="1.016" layer="21" font="vector" ratio="19" rot="SR0" align="center-right">GND</text>
@@ -218,7 +218,7 @@
 <wire x1="10.414" y1="0" x2="10.414" y2="70.104" width="0.254" layer="51"/>
 <dimension x1="0" y1="69.977" x2="10.414" y2="69.977" x3="5.207" y3="75.692" textsize="1.778" textratio="15" layer="51" unit="inch"/>
 <dimension x1="0" y1="69.977" x2="63.246" y2="69.977" x3="31.623" y3="78.74" textsize="1.778" textratio="15" layer="51" unit="inch"/>
-<dimension x1="73.66" y1="0" x2="73.66" y2="63.754" x3="82.677" y3="31.877" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<dimension x1="73.66" y1="0" x2="73.66" y2="63.5" x3="82.677" y3="31.75" textsize="1.778" textratio="15" layer="51" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1795,7 +1795,7 @@ design rules under a new name.</description>
 <elements>
 <element name="U$1" library="SparkFun" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="36.83" y="42.164" rot="R90"/>
 <element name="JP1" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="38.1" y="1.016" rot="R90"/>
-<element name="JP4" library="SparkFun-Connectors" package="FTDI_DEVICE_SIDE" value="FTDI_DEVICE" x="72.39" y="54.356" rot="R90"/>
+<element name="JP4" library="SparkFun-Connectors" package="FTDI_DEVICE_SIDE" value="FTDI_DEVICE" x="72.39" y="54.102" rot="R90"/>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="20.32" y="-8.382"/>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="25.273" y="44.704"/>
 <element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="10.414" y="49.784"/>
@@ -1851,7 +1851,7 @@ design rules under a new name.</description>
 <signal name="GND">
 <contactref element="JP4" pad="P$6"/>
 <polygon width="0.2032" layer="16" isolate="0.3048">
-<vertex x="0" y="44.704"/>
+<vertex x="1.27" y="44.704"/>
 <vertex x="26.416" y="44.704" curve="-90"/>
 <vertex x="27.686" y="43.434"/>
 <vertex x="27.686" y="1.27" curve="90"/>
@@ -1862,11 +1862,11 @@ design rules under a new name.</description>
 <vertex x="46.736" y="44.704"/>
 <vertex x="72.39" y="44.704" curve="90"/>
 <vertex x="73.66" y="45.974"/>
-<vertex x="73.66" y="62.484" curve="90"/>
-<vertex x="72.39" y="63.754"/>
-<vertex x="0" y="63.754" curve="90"/>
-<vertex x="-1.27" y="62.611"/>
-<vertex x="-1.27" y="46.101" curve="90"/>
+<vertex x="73.66" y="62.23" curve="90"/>
+<vertex x="72.39" y="63.5"/>
+<vertex x="1.27" y="63.5" curve="90"/>
+<vertex x="0" y="62.357"/>
+<vertex x="0" y="46.101" curve="90"/>
 </polygon>
 <polygon width="0.2032" layer="1" isolate="0.3048">
 <vertex x="45.466" y="43.434"/>
@@ -1876,12 +1876,12 @@ design rules under a new name.</description>
 <vertex x="27.686" y="1.27"/>
 <vertex x="27.686" y="43.434" curve="90"/>
 <vertex x="26.416" y="44.704"/>
-<vertex x="0" y="44.704" curve="-90"/>
-<vertex x="-1.27" y="46.101"/>
-<vertex x="-1.27" y="62.611" curve="-90"/>
-<vertex x="0" y="63.754"/>
-<vertex x="72.39" y="63.754" curve="-90"/>
-<vertex x="73.66" y="62.484"/>
+<vertex x="1.27" y="44.704" curve="-90"/>
+<vertex x="0" y="46.101"/>
+<vertex x="0" y="62.357" curve="-90"/>
+<vertex x="1.27" y="63.5"/>
+<vertex x="72.39" y="63.5" curve="-90"/>
+<vertex x="73.66" y="62.23"/>
 <vertex x="73.66" y="45.974" curve="-90"/>
 <vertex x="72.39" y="44.704"/>
 <vertex x="46.736" y="44.704" curve="90"/>
@@ -1909,7 +1909,7 @@ design rules under a new name.</description>
 <via x="35.56" y="5.334" extent="1-16" drill="0.381"/>
 <via x="38.1" y="5.334" extent="1-16" drill="0.381"/>
 <via x="69.088" y="60.198" extent="1-16" drill="0.381"/>
-<via x="69.596" y="49.53" extent="1-16" drill="0.381"/>
+<via x="69.469" y="48.26" extent="1-16" drill="0.381"/>
 <via x="69.596" y="46.482" extent="1-16" drill="0.381"/>
 <via x="61.468" y="45.974" extent="1-16" drill="0.381"/>
 <via x="1.524" y="62.23" extent="1-16" drill="0.381"/>
@@ -1920,7 +1920,7 @@ design rules under a new name.</description>
 <via x="5.588" y="60.706" extent="1-16" drill="0.381"/>
 <via x="42.164" y="20.574" extent="1-16" drill="0.381"/>
 <via x="47.244" y="53.086" extent="1-16" drill="0.381"/>
-<via x="69.088" y="52.07" extent="1-16" drill="0.381"/>
+<via x="69.469" y="51.562" extent="1-16" drill="0.381"/>
 <via x="3.556" y="53.086" extent="1-16" drill="0.381"/>
 <via x="10.16" y="60.706" extent="1-16" drill="0.381"/>
 <via x="10.16" y="55.626" extent="1-16" drill="0.381"/>
@@ -1985,8 +1985,8 @@ design rules under a new name.</description>
 <wire x1="33.02" y1="9.144" x2="38.354" y2="9.144" width="0.254" layer="16"/>
 <wire x1="38.354" y1="9.144" x2="39.116" y2="9.906" width="0.254" layer="16"/>
 <wire x1="39.116" y1="9.906" x2="39.116" y2="48.006" width="0.254" layer="16"/>
-<wire x1="72.39" y1="50.546" x2="68.58" y2="50.546" width="0.254" layer="1"/>
-<wire x1="68.58" y1="50.546" x2="66.04" y2="53.086" width="0.254" layer="1"/>
+<wire x1="72.39" y1="50.292" x2="68.834" y2="50.292" width="0.254" layer="1"/>
+<wire x1="68.834" y1="50.292" x2="66.04" y2="53.086" width="0.254" layer="1"/>
 <wire x1="66.04" y1="53.086" x2="56.896" y2="53.086" width="0.254" layer="1"/>
 <wire x1="56.896" y1="53.086" x2="53.34" y2="49.53" width="0.254" layer="1"/>
 <via x="53.34" y="49.53" extent="1-16" drill="0.381"/>
@@ -2019,8 +2019,8 @@ design rules under a new name.</description>
 <via x="50.8" y="49.022" extent="1-16" drill="0.381"/>
 <wire x1="50.8" y1="49.022" x2="50.8" y2="53.34" width="0.254" layer="16"/>
 <wire x1="50.8" y1="53.34" x2="50.8" y2="56.896" width="0.254" layer="16"/>
-<wire x1="72.39" y1="53.086" x2="68.072" y2="53.086" width="0.254" layer="1"/>
-<wire x1="68.072" y1="53.086" x2="66.802" y2="54.356" width="0.254" layer="1"/>
+<wire x1="72.39" y1="52.832" x2="68.326" y2="52.832" width="0.254" layer="1"/>
+<wire x1="68.326" y1="52.832" x2="66.802" y2="54.356" width="0.254" layer="1"/>
 <wire x1="66.802" y1="54.356" x2="56.134" y2="54.356" width="0.254" layer="1"/>
 <wire x1="56.134" y1="54.356" x2="55.118" y2="53.34" width="0.254" layer="1"/>
 <wire x1="55.118" y1="53.34" x2="50.8" y2="53.34" width="0.254" layer="1"/>
