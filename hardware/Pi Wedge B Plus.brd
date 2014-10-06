@@ -155,7 +155,7 @@
 <wire x1="1.27" y1="63.5" x2="0" y2="62.357" width="0.2032" layer="20" curve="90"/>
 <wire x1="0" y1="62.357" x2="0" y2="46.101" width="0.2032" layer="20"/>
 <wire x1="0" y1="46.101" x2="1.27" y2="44.704" width="0.2032" layer="20" curve="90"/>
-<text x="8.001" y="58.166" size="1.016" layer="16" font="vector" ratio="20" rot="SMR180">V01</text>
+<text x="8.001" y="58.166" size="1.016" layer="16" font="vector" ratio="20" rot="SMR180">V10</text>
 <text x="31.75" y="1.524" size="1.016" layer="21" font="vector" ratio="19" rot="SR0" align="center-right">GND</text>
 <text x="36.576" y="25.654" size="2.032" layer="21" font="vector" ratio="19" rot="SR90" align="bottom-center">Pi Wedge B+</text>
 <text x="41.91" y="16.764" size="1.016" layer="21" font="vector" ratio="19" rot="SR0" align="center-left">SCL</text>

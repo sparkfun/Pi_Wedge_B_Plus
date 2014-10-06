@@ -18170,7 +18170,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <sheet>
 <plain>
 <text x="167.64" y="10.16" size="2.54" layer="94">Byron Jacquot</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">V01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">V10</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="129.54" y="12.7"/>
