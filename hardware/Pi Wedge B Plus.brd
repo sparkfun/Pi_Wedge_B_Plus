@@ -32,12 +32,12 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -155,7 +155,7 @@
 <wire x1="1.27" y1="63.5" x2="0" y2="62.357" width="0.2032" layer="20" curve="90"/>
 <wire x1="0" y1="62.357" x2="0" y2="46.101" width="0.2032" layer="20"/>
 <wire x1="0" y1="46.101" x2="1.27" y2="44.704" width="0.2032" layer="20" curve="90"/>
-<text x="8.001" y="58.166" size="1.016" layer="16" font="vector" ratio="20" rot="SMR180">V10</text>
+<text x="8.001" y="58.166" size="1.016" layer="16" font="vector" ratio="20" rot="SMR180">V11</text>
 <text x="31.75" y="1.524" size="1.016" layer="21" font="vector" ratio="19" rot="SR0" align="center-right">GND</text>
 <text x="36.576" y="25.654" size="2.032" layer="21" font="vector" ratio="19" rot="SR90" align="bottom-center">Pi Wedge B+</text>
 <text x="41.91" y="16.764" size="1.016" layer="21" font="vector" ratio="19" rot="SR0" align="center-left">SCL</text>
@@ -219,6 +219,40 @@
 <dimension x1="0" y1="69.977" x2="10.414" y2="69.977" x3="5.207" y3="75.692" textsize="1.778" textratio="15" layer="51" unit="inch"/>
 <dimension x1="0" y1="69.977" x2="63.246" y2="69.977" x3="31.623" y3="78.74" textsize="1.778" textratio="15" layer="51" unit="inch"/>
 <dimension x1="73.66" y1="0" x2="73.66" y2="63.5" x3="82.677" y3="31.75" textsize="1.778" textratio="15" layer="51" unit="inch"/>
+<text x="31.75" y="1.524" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">GND</text>
+<text x="31.75" y="21.844" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">CE0</text>
+<text x="31.75" y="24.384" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">CE1</text>
+<text x="31.75" y="19.304" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">MOSI</text>
+<text x="31.75" y="16.764" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">MISO</text>
+<text x="31.75" y="14.224" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">SCK</text>
+<text x="31.75" y="11.684" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">RXI</text>
+<text x="31.75" y="9.144" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">TXO</text>
+<text x="31.75" y="6.604" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">5V</text>
+<text x="31.75" y="4.064" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">3.3V</text>
+<text x="31.75" y="26.924" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">G4</text>
+<text x="31.75" y="29.464" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">G5</text>
+<text x="31.75" y="32.004" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">G6</text>
+<text x="31.75" y="34.544" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">G12</text>
+<text x="31.75" y="37.084" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">G13</text>
+<text x="31.75" y="39.624" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">G16</text>
+<text x="31.75" y="42.164" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-left">G17</text>
+<text x="41.91" y="16.764" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">SCL</text>
+<text x="41.91" y="14.224" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">SDA</text>
+<text x="41.91" y="4.064" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">3.3V</text>
+<text x="41.91" y="9.144" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">IDSD</text>
+<text x="41.91" y="42.164" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">G18</text>
+<text x="41.91" y="32.004" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">G22</text>
+<text x="41.91" y="29.464" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">G23</text>
+<text x="41.91" y="26.924" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">G24</text>
+<text x="41.91" y="24.384" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">G25</text>
+<text x="41.91" y="19.304" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">G27</text>
+<text x="41.91" y="1.524" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">GND</text>
+<text x="41.91" y="6.604" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">5V</text>
+<text x="41.91" y="11.684" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">IDSC</text>
+<text x="41.91" y="21.844" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">G26</text>
+<text x="41.91" y="39.624" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">G19</text>
+<text x="41.91" y="37.084" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">G20</text>
+<text x="41.91" y="34.544" size="1.016" layer="22" font="vector" ratio="19" rot="SMR0" align="center-right">G21</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1809,8 +1843,8 @@ design rules under a new name.</description>
 </element>
 <element name="U$2" library="SparkFun-Aesthetics" package="BREADBOARD_SPACING" value="BREADBOARD_PATTERN" x="36.83" y="66.294"/>
 <element name="U$3" library="SparkFun-Boards" package="2X20-SHROUDED" value="RASPBERRYPI-B+-GPIO" x="36.83" y="58.166" rot="R270"/>
-<element name="U$4" library="SparkFun-Connectors" package="1X17_NO_SILK_KIT" value="M17KIT" x="33.02" y="1.524" rot="R90"/>
-<element name="U$5" library="SparkFun-Connectors" package="1X17_NO_SILK_KIT" value="M17KIT" x="40.64" y="1.524" rot="R90"/>
+<element name="U$4" library="SparkFun-Connectors" package="1X17_NO_SILK_KIT" value="M17KIT" x="33.02" y="1.524" rot="MR90"/>
+<element name="U$5" library="SparkFun-Connectors" package="1X17_NO_SILK_KIT" value="M17KIT" x="40.64" y="1.524" rot="MR90"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.2" value="SFE_LOGO_NAME_FLAME.2_INCH" x="48.006" y="44.704" rot="MR0"/>
 </elements>
 <signals>
