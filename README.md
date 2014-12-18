@@ -5,17 +5,17 @@ _Syntactic note: Guthub didn't like the '+' character in the name, so it's spell
 
 ----------------------------
 
-...photo...
+[![alt text](https://cdn.sparkfun.com/assets/learn_tutorials/3/2/5/13091-Action.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/3/2/5/13091-Action.jpg)
 
 This is the Pi Wedge B Plus, a board that connects to the Raspberry Pi B+’s 40-pin GPIO connector, and breaks the pins out to breadboard-friendly arrangement and spacing, and even adds a couple of decoupling capacitors on the power supply lines. The “Wedge” also makes the initial bringup process easier - you can plug an FTDI Basic module into the built-in serial port. Each Pi Wedge comes as an easy to assemble kit that can can be inserted into the Raspberry Pi’s GPIO port that allows you to prototype as soon as you are done soldering.
 
-The kit works with both the [Model B+](https://www.sparkfun.com/products/11546) version of the Raspberry Pi.
+The kit works with both the Model A+ and [Model B+](https://www.sparkfun.com/products/11546) versions of the Raspberry Pi.
 
-For the Model A and Model B, we also offer the regular [Pi Wedge]() 
+For the Model A and Model B, we also offer the regular [Pi Wedge](https://www.sparkfun.com/products/12652) 
 
 It adapts the GPIO header on the B+ to a standard solderless breadboard, such as our [meduim](https://www.sparkfun.com/products/12002), [large](https://www.sparkfun.com/products/112) and [extra large](https://www.sparkfun.com/products/12614) breadboards.  While it will technically with with a [mini](https://www.sparkfun.com/products/12043) breadboard, it won't leave much room for external circuitry.
 
-More information can be found on the [Pi Wedge B+ product Page](), and in the [Pi Wedge B+ hookup guide]().
+More information can be found on the [Pi Wedge B+ product Page](https://www.sparkfun.com/products/12994), and in the [Pi Wedge B+ hookup guide](https://learn.sparkfun.com/tutorials/pi-wedge-b-hookup-guide).
 
 This part was created in Eagle v6.5.0.  Software examples were developed using the [WiringPi](wiringpi.com) libraries and utilities.
 
@@ -27,12 +27,12 @@ Repository Contents
 
 Product Versions
 ----------------
-* [ ]()- Pi Wedge B+ kit
+* [V1.1](https://www.sparkfun.com/products/12994)- Pi Wedge B+ kit
 
 Version History
 ---------------
 
-* [...hash...]()  
+* [820b901aa31b3c76c1dbefd9966a04860c9f83ca](https://github.com/sparkfun/Pi_Wedge_B_Plus/commit/820b901aa31b3c76c1dbefd9966a04860c9f83ca) - Initial release version.
 
 
 License Information
