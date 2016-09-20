@@ -1,3 +1,5 @@
+NOTE: This product has been retired from our catalog. This repo exists for reference only. 
+
 Pi Wedge B Plus - Breakout For Raspberry Pi B+ GPIO Connector
 ----------------------------
 
