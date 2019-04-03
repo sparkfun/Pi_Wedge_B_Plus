@@ -1,4 +1,9 @@
-NOTE: This product has been retired from our catalog. This repo exists for reference only. 
+**NOTE:** *This product has been retired from our catalog. For the latest version, check out [BOB-13717](https://www.sparkfun.com/products/13717).*
+
+*If you are looking for more up-to-date info, please check out some of these resources to see how other users are still hacking and improving on this version of the product.*
+* *[SparkFun Forum](https://forum.sparkfun.com/)*
+* *[Comments Here on GitHub](https://github.com/sparkfun/Pi_Wedge_B_Plus/issues)*
+* *[IRC Channel](https://www.sparkfun.com/news/263)*
 
 Pi Wedge B Plus - Breakout For Raspberry Pi B+ GPIO Connector
 ----------------------------
@@ -26,6 +31,13 @@ Repository Contents
 
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
 * **/Software** - C source code for SPI, I2C and GPIO examples.  All use [WiringPi](wiringpi.com) for the underlying device interfaces
+
+Documentation
+--------------
+
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/retired---pi-wedge-b-hookup-guide)** - Basic hookup guide
+* **[Raspberry gPIo](https://learn.sparkfun.com/tutorials/raspberry-gpio)** - Programming guide using the Pi's I/O pins with Python and C. 
+* **[Raspberry Pi SPI and I2C Tutorial](https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial)** - Programming guide using the Pi's SPI and I2C.
 
 Product Versions
 ----------------
