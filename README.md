@@ -12,7 +12,7 @@ _Syntactic note: Guthub didn't like the '+' character in the name, so it's spell
 
 ----------------------------
 
-[![alt text](https://cdn.sparkfun.com/assets/learn_tutorials/3/2/5/13091-Action.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/3/2/5/13091-Action.jpg)
+[![alt text](https://cdn.sparkfun.com/assets/learn_tutorials/3/2/5/13091-Action.jpg)](https://www.sparkfun.com/products/retired/13091)
 
 This is the Pi Wedge B Plus, a board that connects to the Raspberry Pi B+’s 40-pin GPIO connector, and breaks the pins out to breadboard-friendly arrangement and spacing, and even adds a couple of decoupling capacitors on the power supply lines. The “Wedge” also makes the initial bringup process easier - you can plug an FTDI Basic module into the built-in serial port. Each Pi Wedge comes as an easy to assemble kit that can can be inserted into the Raspberry Pi’s GPIO port that allows you to prototype as soon as you are done soldering.
 
@@ -41,7 +41,7 @@ Documentation
 
 Product Versions
 ----------------
-* [V1.1](https://www.sparkfun.com/products/12994)- Pi Wedge B+ kit
+* [V1.1](https://www.sparkfun.com/products/retired/13091)- Pi Wedge B+ kit
 
 Version History
 ---------------
